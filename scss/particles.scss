@@ -1,0 +1,18 @@
+// SASS Variables.
+$text: #fff;
+$link: #e34234;
+$link-hover: #ba160c;
+$background: radial-gradient(#49a7b7, #293f50) !important;
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+	background: $background
+  height: 35em;
+}
