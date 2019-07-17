@@ -222,7 +222,7 @@
           <p class="lead">Focus on well rounded, efficient, scalable and visually compelling Front End UX.</p>
           <p class="lead">Up for challenges to pugnaciously solve, improve, and repeat. </p>
           <p class="lead">Perpetual curious learner with out-of-the-box solutions. </p>
-          <p class="lead">See my <a href="https://drive.google.com/open?id=1hRjVbJsNe2hnlX5b6Te80-9fay-5FKFh" target="_blank">résumé</a>.
+          <p class="lead">See my <a href="https://drive.google.com/open?id=1Vhh2R9PTlQFwoAlmsrm8JFfgrhl5XrP_" target="_blank">résumé</a>.
           <!--If many can pretend to be whatever, one cannot pretend to be a programmer-->
     </div>
   </div>
@@ -239,12 +239,36 @@
       <div class="divider-custom">
         </div>
 
+    <!-- Contact Section Form -->
 
-      <!-- Contact Section Form -->
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
+    <form action="https://formspree.io/lila.ait.ab@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate="novalidate">
+
+
+      <div class="col-lg-8 mx-auto">
+      <div class="control-group">
+      <div class="form-group floating-label-form-group controls mb-0 pb-2">
+
+      <div><input type="text" name="name" placeholder="Name" class="form-control" id="name" rows="5" required="required" data-validation-required-message="Please enter your name."></div>
+      <div><input type="email" name="_replyto" placeholder="@" class="form-control" id="email" type="email" required="required" data-validation-required-message="Please enter your email address."></div>
+      <div><input type="text" name="message"><textarea class="form-control" id="message" rows="5" placeholder="Say hello" required="required" data-validation-required-message="Please enter a message."></textarea></div>
+      <div id="success"></div>
+      <div class="form-group">
+      <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">
+      <input type="submit" value="Send">
+      </button>
+
+    </div>
+  </div>
+</div>
+
+    </form>
+
+      <!-- Bootstrap Contact Section Form -->
+      <!-- Server side not working on GitHub -->
+      <!--<div class="row">-->
+        <!--<div class="col-lg-8 mx-auto">-->
           <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-          <form name="sentMessage" id="contactForm" novalidate="novalidate">
+          <!--<form name="sentMessage" id="contactForm" novalidate="novalidate">
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label>Name</label>
@@ -280,7 +304,7 @@
             </div>
           </form>
         </div>
-      </div>
+      </div>-->
 
     </div>
   </section>
@@ -561,8 +585,9 @@
 
 
   <!-- Contact Form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
+  <!-- Bootstrap Template server not running on GitHub-->
+  <!--<script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>-->
 
   <!-- Custom scripts for this template -->
   <script src="js/freelancer.min.js"></script>
