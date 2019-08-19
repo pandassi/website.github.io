@@ -10926,6 +10926,10 @@ form .row:first-child .floating-label-form-group {
  background: #1d365d;
  color: #fff;
 }
+#react li:hover {
+  background: #00d8ff;
+  color: #fff;
+ }
 #gitlab li:hover {
  background: #fca326;
  color: #fff;
