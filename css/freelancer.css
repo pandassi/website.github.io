@@ -8376,7 +8376,7 @@ button.bg-dark:focus {
 }
 
 .w-100 {
- width: 100% !important;
+width: 100% !important;
 }
 
 .w-auto {
@@ -10754,6 +10754,11 @@ a.text-dark:hover, a.text-dark:focus {
  transform: translate(-50%,-50%);
 }
 
+.img-portfolio {
+  max-width: 100%;
+  height: 250px;
+}
+
 header .img-fluid {
 position: absolute;
 height: auto;
@@ -10842,7 +10847,7 @@ transform: translate(-50%,-50%);
 
 .floating-label-form-group {
  position: relative;
- border-bottom: 1px solid #e9ecef;
+ border-bottom: 1px solid transparent;
 }
 
 .floating-label-form-group input,
@@ -10934,6 +10939,10 @@ form .row:first-child .floating-label-form-group {
  background: #fca326;
  color: #fff;
 }
+#git li:hover {
+ background: #f34f29;
+ color: #fff;
+}
 #wordpress li:hover {
  background: #668eaa;
  color: #fff;
@@ -10952,7 +10961,14 @@ li {
 }
 
 /*Social Icons*/
-
+#glitch li img {
+  width: 40px;
+  height: 40px;
+}
+#glitch li:hover {
+  background: rgb(252, 170, 169);
+  color: #fff;
+}
  #github li:hover {
    background: #333;
    color: #fff;
