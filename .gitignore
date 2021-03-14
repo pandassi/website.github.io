@@ -10,3 +10,4 @@ img/*.psd
 img/*.ai
 
 .DS_Store
+node_modules
