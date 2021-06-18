@@ -11324,6 +11324,10 @@ form .row:first-child .floating-label-form-group {
 	background: #00d8ff;
 	color: #fff;
 }
+#vue li:hover {
+	background: #42b883;
+	color: #fff;
+}
 #gitlab li:hover {
 	background: #fca326;
 	color: #fff;
