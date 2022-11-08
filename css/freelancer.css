@@ -11568,3 +11568,13 @@ form ul {
 	top: inherit;
 	clear: inherit;
 }
+
+.button-load {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+.block {
+	display: none;
+	font-size: inherit;
+}
