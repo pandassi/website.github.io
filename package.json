@@ -47,5 +47,19 @@
         "gulp-sass": "^4.1.0",
         "gulp-uglify": "3.0.2",
         "merge-stream": "2.0.0"
+    },
+
+       {
+      "@context": "https://schema.org",
+      "@type": ["ProfilePage", "Web Developer"],
+      "mainEntity": {
+        "@type": "Person",
+        "name": "Lila Aït",
+        "description": "Hire a humbly awesome Web Developer 👩🏽‍💻"
+      }
     }
+  "author": {
+				"@type": "Person",
+				"name": "Lila Aït"
+			},
 }
